@@ -89,12 +89,12 @@ const LandingSection = () => (
                 display="flex"
                 flexDirection={{base:"column", md:"column", lg:"row"}}
             >
-                <Heading as="h5" size="sm" noOfLines={7} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
+                <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
                     I was a Construction Engineer for years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience there.
                     I signed up for the META FrontEnd Engineer course and found it incredibly fun! I enrolled shortly thereafter. The next 4 months was the best - and most grueling - time in my life.
                     Since completing the course and got certified, I'm sharpening my skills in frontendmentor.io challenges. Now I’m looking for switched careers, working as a FrontEnd/Software Engineer.
                 </Heading>
-                <Heading as="h5" size="sm" noOfLines={8} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
+                <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
                     I enjoy developing new programs that solve complex problems. I like being reserved and thoughtful, love learning constantly and thinking through issues, real or hypothetical.
                     And being a FrontEnd/Software Engineer could implement more ideas to find new solutions that work for everyone, that tend me to feel energized.
                 </Heading>

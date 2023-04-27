@@ -79,8 +79,8 @@ const Header = () => {
     >
       <Box
         color="white"
-        maxWidth={{base:'auto', md:'auto', lg:'auto'}}
-        margin="0 10px">
+        Width={{base:'auto', md:'auto', lg:'auto'}}
+        margin="0 20px">
         <HStack
           px={{base:'auto', md:'auto', lg:16}}
           py={4}
@@ -98,7 +98,11 @@ const Header = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FontAwesomeIcon icon={icon} size="2x" key={url} />
+                    <FontAwesomeIcon
+                      icon={icon}
+                      size={{base:'xl', md:'xl', lg:'2xl'}}
+                      key={url}
+                    />
                 </a>
                 ))}
             </HStack>
@@ -107,7 +111,7 @@ const Header = () => {
             <HStack
               spacing={{base:2, md:4, lg:8}}
             >
-            <a href="#bio" onClick={handleClick("bio")}>
+              <a href="#bio" onClick={handleClick("bio")}>
                 Bio
               </a>
               <a href="#projects" onClick={handleClick("projects")}>
