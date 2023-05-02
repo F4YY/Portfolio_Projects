@@ -159,11 +159,11 @@ const projects = [
     url:'https://stats-previewer-card.netlify.app'
   },
   {
-    title: "Clipboard landing page",
+    title: "Order summary component",
     description:
-      "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
-    ImageSrc: () => require("./images/clipboard-landing.jpg"),
-    url:'https://clipboard-landings.netlify.app/'
+      "A perfect project for newbies who are starting to build confidence with layouts!",
+    ImageSrc: () => require("./images/order-summary.jpg"),
+    url:'https://ordered-summary.netlify.app/'
   },
   {
     title: "Profile card component",
