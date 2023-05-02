@@ -12,6 +12,13 @@ const projects = [
     url:'https://spacetourism-multipage.netlify.app/'
   },
   {
+    title: "Job Listings with Filtering",
+    description:
+      "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.",
+    ImageSrc: () => require("./images/Joblistings.jpg"),
+    url:'https://joblistings-filtering.netlify.app/'
+  },
+  {
     title: "Loopstudios Landing page",
     description:
       "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen. 🔥️",
@@ -31,6 +38,13 @@ const projects = [
       "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu",
     ImageSrc: () => require("./images/blogrlanding.jpg"),
     url:'https://blogrlandingpages.netlify.app'
+  },
+  {
+    title: "Age Calculator App",
+    description:
+      "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+    ImageSrc: () => require("./images/age-calculator.jpg"),
+    url:'https://aging-calculator.netlify.app'
   },
   {
     title: "Intro section with dropdown navigation",
@@ -143,6 +157,20 @@ const projects = [
       "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
     ImageSrc: () => require("./images/statspreview.jpg"),
     url:'https://stats-previewer-card.netlify.app'
+  },
+  {
+    title: "Clipboard landing page",
+    description:
+      "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+    ImageSrc: () => require("./images/clipboard-landing.jpg"),
+    url:'https://clipboard-landings.netlify.app/'
+  },
+  {
+    title: "Profile card component",
+    description:
+      "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!",
+    ImageSrc: () => require("./images/Profile-card.jpg"),
+    url:'https://profiler-card.netlify.app/'
   },
 ];
 
