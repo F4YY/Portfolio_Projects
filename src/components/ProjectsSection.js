@@ -12,6 +12,13 @@ const projects = [
     url:'https://spacetourism-multipage.netlify.app/'
   },
   {
+    title: "Multi-step form",
+    description:
+      "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+    ImageSrc: () => require("./images/multistep-form.jpg"),
+    url:'https://multisteps-form.netlify.app/'
+  },
+  {
     title: "Job Listings with Filtering",
     description:
       "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.",
