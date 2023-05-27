@@ -79,7 +79,7 @@ const Header = () => {
     >
       <Box
         color="white"
-        Width={{base:'auto', md:'auto', lg:'auto'}}
+        Width={{base:'fit-content', md:'fit-content', lg:'auto'}}
         margin="0 20px">
         <HStack
           px={{base:'auto', md:'auto', lg:16}}

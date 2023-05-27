@@ -26,6 +26,13 @@ const projects = [
     url:'https://joblistings-filtering.netlify.app/'
   },
   {
+    title: "Todo app",
+    description:
+      "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
+    ImageSrc: () => require("./images/todo_app.jpg"),
+    url:'https://riki-todo-app.netlify.app/'
+  },
+  {
     title: "Loopstudios Landing page",
     description:
       "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen. 🔥️",
