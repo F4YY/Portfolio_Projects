@@ -47,6 +47,13 @@ const projects = [
     url:'https://sunnyside-agency-landings.netlify.app'
   },
   {
+    title: "Newsletter signup with Success Message",
+    description:
+      "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+    ImageSrc: () => require("./images/newsletter.jpg"),
+    url:'https://newsletter-successmessage.netlify.app/'
+  },
+  {
     title: "Blogr Landing page",
     description:
       "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu",
