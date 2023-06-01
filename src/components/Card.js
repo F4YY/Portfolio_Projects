@@ -17,7 +17,7 @@ const Card = ({ title, description, imageSrc, url }) => {
             target="_blank"
             cursor="pointer"
         >
-          <Image borderRadius="xl" src={imageSrc} alt={title} />
+          <Image borderRadius="xl" src={require(`${imageSrc}`)} alt={title} />
         </a>
        <VStack spacing={4} p={4} alignItems="flex-start">
          <HStack justifyContent="space-between" alignItems="center">

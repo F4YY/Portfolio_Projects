@@ -1,0 +1,198 @@
+[
+    {
+      "title": "Space Tourism Multipage Website",
+      "description":
+        "This project is a collaboration between FrontEnd Mentor, Scrimba, and Kevin Powell. One of Intermediate level challenge in frontendmentor.io, is to build out the multi-page space tourism website.",
+      "ImageSrc": "./images/spacetourism.jpg",
+      "url":"https://spacetourism-multipage.netlify.app/"
+    },
+    {
+      "title": "Multi-step form",
+      "description":
+        "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "ImageSrc": "./images/multistep-form.jpg",
+      "url":"https://multisteps-form.netlify.app/"
+    },
+    {
+      "title": "Job Listings with Filtering",
+      "description":
+        "In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.",
+      "ImageSrc": "./images/Joblistings.jpg",
+      "url":"https://joblistings-filtering.netlify.app/"
+    },
+    {
+      "title": "Todo app",
+      "description":
+        "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
+      "ImageSrc": "./images/todo_app.jpg",
+      "url":"https://riki-todo-app.netlify.app/"
+    },
+    {
+      "title": "Loopstudios Landing page",
+      "description":
+        "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen. 🔥️",
+      "ImageSrc": "./images/loopstudioslanding.jpg",
+      "url":"https://loopstudioz-landing.netlify.app/"
+    },
+    {
+      "title": "Advice generator app",
+      "description":
+        "The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.",
+      "ImageSrc": "./images/advice-gen.jpg",
+      "url":"https://advicez-generator.netlify.app/"
+    },
+    {
+      "title": "Sunnyside Agency Landing page",
+      "description":
+        "A grid base display challenge in frontendmentor.io, is to build out the Sunnyside Agency landing page website responsive design for each device screen",
+      "ImageSrc": "./images/sunnysideagency.jpg",
+      "url":"https://sunnyside-agency-landings.netlify.app/"
+    },
+    {
+      "title": "Newsletter signup with Success Message",
+      "description":
+        "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+      "ImageSrc": "./images/newsletter.jpg",
+      "url":"https://newsletter-successmessage.netlify.app/"
+    },
+    {
+      "title": "Blogr Landing page",
+      "description":
+        "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu",
+      "ImageSrc": "./images/blogrlanding.jpg",
+      "url":"https://blogrlandingpages.netlify.app/"
+    },
+    {
+      "title": "Age Calculator App",
+      "description":
+        "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "ImageSrc": "./images/age-calculator.jpg",
+      "url":"https://aging-calculator.netlify.app/"
+    },
+    {
+      "title": "Intro section with dropdown navigation",
+      "description":
+        "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "ImageSrc": "./images/introsectiondropdown.jpg",
+      "url":"https://introdropdown-nav.netlify.app/"
+    },
+    {
+      "title": "Testimonials grid section",
+      "description":
+        "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it! 🔥️",
+      "ImageSrc": "./images/testimonialsgrid.jpg",
+      "url":"https://testimonials-grids-section.netlify.app/"
+    },
+    {
+      "title": "Intro component with sign-up form",
+      "description":
+        "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+      "ImageSrc": "./images/introsignupform.jpg",
+      "url":"https://introsignupformik.netlify.app/"
+    },
+    {
+      "title": "News homepage",
+      "description":
+        "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+      "ImageSrc": "./images/newshomepage.jpg",
+      "url":"https://news-homepager.netlify.app/"
+    },
+    {
+      "title": "Time tracking dashboard",
+      "description":
+        "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "ImageSrc": "./images/timetracking.jpg",
+      "url":"https://timetrackings-dashboard.netlify.app/"
+    },
+    {
+      "title": "Pricing component with toggle",
+      "description":
+        "This challenge will get you thinking about building an accessible custom toggle control and also test your layout skills. 🔥️",
+      "ImageSrc": "./images/pricingwithtoggle.jpg",
+      "url":"https://pricingwithtoggle.netlify.app/"
+    },
+    {
+      "title": "Clipboard landing page",
+      "description":
+        "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "ImageSrc": "./images/clipboardlanding.jpg",
+      "url":"https://clipboard-landings.netlify.app/"
+    },
+    {
+      "title": "FAQ accordion card",
+      "description":
+        "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!",
+      "ImageSrc": "./images/faqaccordion.jpg",
+      "url":"https://faqs-accordion.netlify.app/"
+    },
+    {
+      "title": "Base Apparel coming soon page",
+      "description":
+        "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
+      "ImageSrc": "./images/baseapparel.jpg",
+      "url":"https://baseapparelcoming.netlify.app/"
+    },
+    {
+      "title": "Interactive rating component",
+      "description":
+        "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript! 🔥️",
+      "ImageSrc": "./images/interactiverating.jpg",
+      "url":"https://interactives-rating.netlify.app/"
+    },
+    {
+      "title": "3-column preview card component",
+      "description":
+        "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+      "ImageSrc": "./images/3columncards.jpg",
+      "url":"https://3columns-preview-card.netlify.app/"
+    },
+    {
+      "title": "Results summary component",
+      "description":
+        "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
+      "ImageSrc": "./images/resultsummary.jpg",
+      "url":"https://result-summaries.netlify.app/"
+    },
+    {
+      "title": "Social proof section",
+      "description":
+        "This project will test your layout skills. If you're starting to get confident with Flexbox or Grid, this will provide a nice challenge!",
+      "ImageSrc": "./images/socialproof.jpg",
+      "url":"https://socialsproofsection.netlify.app/"
+    },
+    {
+      "title": "Article preview component",
+      "description":
+        "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well. 🔥️",
+      "ImageSrc": "./images/articlepreview.jpg",
+      "url":"https://article-previewer.netlify.app/"
+    },
+    {
+      "title": "Project tracking intro component",
+      "description":
+        "Some interesting layout and code challenges are baked into this design. Perfect if you're a beginner who is starting to get a bit more confident with your layouts.",
+      "ImageSrc": "./images/projecttracking.jpg",
+      "url":"https://project-tracking-intros.netlify.app/"
+    },
+    {
+      "title": "Stats preview card component",
+      "description":
+        "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+      "ImageSrc": "./images/statspreview.jpg",
+      "url":"https://stats-previewer-card.netlify.app/"
+    },
+    {
+      "title": "Order summary component",
+      "description":
+        "A perfect project for newbies who are starting to build confidence with layouts!",
+      "ImageSrc": "./images/order-summary.jpg",
+      "url":"https://ordered-summary.netlify.app/"
+    },
+    {
+      "title": "Profile card component",
+      "description":
+        "This is a perfect challenge to test your layout skills. The card layout doesn't shift, so it's also great for those that haven't dived into responsive websites yet!",
+      "ImageSrc": "./images/Profile-card.jpg",
+      "url":"https://profiler-card.netlify.app/"
+    }
+  ]
