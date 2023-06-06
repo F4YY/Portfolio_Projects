@@ -28,6 +28,13 @@
       "url":"https://riki-todo-app.netlify.app/"
     },
     {
+      "title": "Calculator app",
+      "description":
+        "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you! 🔥️",
+      "ImageSrc": "./images/calc_app.jpg",
+      "url":"https://riki-calculator.netlify.app/"
+    },
+    {
       "title": "Loopstudios Landing page",
       "description":
         "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen. 🔥️",
