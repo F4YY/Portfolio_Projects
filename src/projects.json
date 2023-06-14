@@ -7,6 +7,13 @@
       "url":"https://spacetourism-multipage.netlify.app/"
     },
     {
+      "title": "REST Countries API with color theme switcher",
+      "description":
+        "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API. 🔥️",
+      "ImageSrc": "./images/rest-countries.jpg",
+      "url":"https://myrest-countries-api.netlify.app/"
+    },
+    {
       "title": "Multi-step form",
       "description":
         "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
@@ -37,7 +44,7 @@
     {
       "title": "Loopstudios Landing page",
       "description":
-        "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen. 🔥️",
+        "One of Junior level challenge in frontendmentor.io, is to build out the Loopstudios landing page website responsive design for each device screen.",
       "ImageSrc": "./images/loopstudioslanding.jpg",
       "url":"https://loopstudioz-landing.netlify.app/"
     },
