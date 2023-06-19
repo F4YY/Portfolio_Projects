@@ -61,7 +61,7 @@ const ContactMeSection = () => {
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={4} rounded="md" w="100%">
+        <Box p={4} rounded="md" w={{base:'100%',md:'120%',lg:'150%'}}>
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
