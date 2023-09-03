@@ -90,13 +90,10 @@ const LandingSection = () => (
                 flexDirection={{base:"column", md:"column", lg:"row"}}
             >
                 <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
-                    I was a Construction Engineer for years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience there.
-                    I signed up for the META FrontEnd Engineer course and found it incredibly fun! I enrolled shortly thereafter. The next 4 months was the best - and most grueling - time in my life.
-                    Since completing the course and got certified, I'm sharpening my skills in frontendmentor.io challenges. Now I’m looking for switched careers, working as a FrontEnd/Software Engineer.
+                    Prior to joining the bootcamp, I had a successful career as a Construction Engineer for several years. However, I was eager to embark on a new journey and transition into the field of front-end development. Upon hearing rave reviews about the META FrontEnd Engineer course, I eagerly signed up and quickly found it to be an immensely enjoyable experience. Throughout the program, spanning a couple of months, I encountered both the most fulfilling and challenging period of my life. Since completing the course and obtaining certification, I have remained dedicated to honing my skills by actively participating in frontendmentor.io challenges.
                 </Heading>
                 <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
-                    I enjoy developing new programs that solve complex problems. I like being reserved and thoughtful, love learning constantly and thinking through issues, real or hypothetical.
-                    And being a FrontEnd/Software Engineer could implement more ideas to find new solutions that work for everyone, that tend me to feel energized.
+                    As a Front-End Engineer/Developer, I find joy in creating innovative programs that tackle intricate challenges. I appreciate the opportunity to approach problems with a reserved and thoughtful mindset, constantly learning and strategizing to find effective solutions. The ability to implement new ideas and discover solutions that benefit everyone energizes me.
                 </Heading>
             </HStack>
         </VStack>
