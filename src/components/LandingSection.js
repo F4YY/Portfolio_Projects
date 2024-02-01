@@ -110,10 +110,10 @@ const LandingSection = () => (
                 display="flex"
                 flexDirection={{base:"column", md:"column", lg:"row"}}
             >
-                <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
+                <Heading as="h5" size="sm" opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
                     Prior to joining the bootcamp, I had a successful career as a Construction Engineer for several years. However, I was eager to embark on a new journey and transition into the field of front-end development. Upon hearing rave reviews about the META FrontEnd Engineer course, I eagerly signed up and quickly found it to be an immensely enjoyable experience. Throughout the program, spanning a couple of months, I encountered both the most fulfilling and challenging period of my life. Since completing the course and obtaining certification, I have remained dedicated to honing my skills by actively participating in frontendmentor.io challenges.
                 </Heading>
-                <Heading as="h5" size="sm" noOfLines={15} opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
+                <Heading as="h5" size="sm" opacity='70%' fontWeight={200} lineHeight={1.5} maxWidth="600px">
                     As a Front-End Engineer/Developer, I find joy in creating innovative programs that tackle intricate challenges. I appreciate the opportunity to approach problems with a reserved and thoughtful mindset, constantly learning and strategizing to find effective solutions. The ability to implement new ideas and discover solutions that benefit everyone energizes me.
                 </Heading>
             </HStack>
