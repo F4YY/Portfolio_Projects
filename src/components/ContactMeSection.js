@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { useFormik } from "formik";
 import {
   Box,
@@ -31,37 +31,41 @@ const ContactMeSection = () => {
     onSubmit: (values) => {
         submit('https://gmail.com/rikiwendri@gmail.com', values);
     },
+
     validationSchema: Yup.object({
         firstName: Yup.string().required("Name cannot be empty"),
-        email: Yup.string().email("Invalid email address").required("Required"),
+        email: Yup.string().email("Invalid email address").required("Email cannot be empty"),
         message: Yup.string()
         .min(15, "Must be 15 characters at minimum")
-        .required("Required"),
+        .required("Message cannot be empty"),
     }),
   });
-    useEffect(() => {
-        if (response) {
-            onOpen(response.type, response.message);
-            if(response.type === 'success'){
-                formik.resetForm();
-            }
+  useEffect(() => {
+      if (response) {
+        onOpen(response.type, response.message);
+        if(response.type === 'success'){
+          formik.resetForm();
         }
-    }, [formik, onOpen, response]);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [response]);
 
   return (
     <FullScreenSection
       isDarkBackground
-      backgroundColor="#512DA8"
-      py={16}
+      backgroundColor="rgba(81, 45, 168, 0.4)"
+      py={10}
       spacing={8}
+      width='100%'
     >
       <VStack
         justifyItems='center'
+        width='100%'
       >
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={4} rounded="md" w={{base:'100%',md:'120%',lg:'150%'}}>
+        <Box p={4} rounded="md" width={{base:'100%', md:'40%', lg:'30%'}}>
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
@@ -81,16 +85,14 @@ const ContactMeSection = () => {
                   type="email"
                   {...formik.getFieldProps("email")}
                 />
-                <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
+                <FormErrorMessage justifyContent='right'><em>{formik.errors.email}</em></FormErrorMessage>
               </FormControl>
               <FormControl>
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
-                <Select id="type" name="type">
-                  <option value="fulltime" color="black" backgroundColor="grey">Full time hire</option>
-                  <option value="part time" color="black" backgroundColor="grey">
-                    Part time hire
-                  </option>
-                  <option value="other" color="black" backgroundColor="grey">Other</option>
+                <Select id="type" name="type" color='blackAlpha.800' {...formik.getFieldProps("type")}>
+                  <option>Full time hire</option>
+                  <option>Part time hire</option>
+                  <option>Other</option>
                 </Select>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.message && formik.touched.message}>
@@ -101,7 +103,7 @@ const ContactMeSection = () => {
                   height={250}
                   {...formik.getFieldProps("message")}
                 />
-                <FormErrorMessage>{formik.errors.message}</FormErrorMessage>
+                <FormErrorMessage justifyContent='right'><em>{formik.errors.message}</em></FormErrorMessage>
               </FormControl>
               <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
                 submit

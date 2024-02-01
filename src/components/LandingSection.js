@@ -3,12 +3,15 @@ import { Avatar, HStack, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import Riki from "./Riki.jpg";
 import reactlogo from "./logo192.png";
+import nextlogo from "./Next.png";
 import htmllogo from "./html.png";
 import jslogo from "./js.png";
 import csslogo from "./css.png";
+import styledcomponentlogo from "./styled-component.png";
+import chakrauilogo from "./chakraui.jpg";
 
 const greeting = "Hello, I am Riki Wendri";
-const bio1 = "FrontEnd / Software Engineer";
+const bio1 = "FrontEnd Engineer/Developer";
 
 const LandingSection = () => (
   <FullScreenSection
@@ -23,7 +26,7 @@ const LandingSection = () => (
         pb={20}
         id="bio-section"
         width={{base:'auto', md:'auto', lg:'auto'}}
-        margin={{base:'0 20px', md:'auto', lg:'auto'}}
+        margin={{base:'0 15px', md:'auto', lg:'auto'}}
     >
         <VStack spacing={4} alignItems="center">
             <Avatar
@@ -47,37 +50,55 @@ const LandingSection = () => (
             <HStack
                 flexDirection={{base:'column',md:'row',lg:'row'}}
             >
-                <HStack>
-                    <Heading
-                        as="h2"
-                        size="lg"
-                        noOfLines={{base:2, md:2, lg:1}}>
-                        Specialized in <span>React</span>
-                    </Heading>
-                    <Avatar
-                        className="App-logo"
-                        src={reactlogo}
-                        size="md"
-                        name="react-logo"
-                    />
-                </HStack>
-                <HStack>
-                    <Avatar
-                        src={htmllogo}
-                        size="md"
-                        name="html-logo"
-                    />
-                    <Avatar
-                        src={jslogo}
-                        size="md"
-                        name="js-logo"
-                    />
-                    <Avatar
-                        src={csslogo}
-                        size="md"
-                        name="css-logo"
-                    />
-                </HStack>
+                <VStack gap={2}>
+                    <HStack>
+                        <Heading
+                            as="h2"
+                            size="lg"
+                            noOfLines={{base:2, md:2, lg:1}}>
+                            Specialized in <span>React</span>
+                        </Heading>
+                        <Avatar
+                            className="react-logo"
+                            src={reactlogo}
+                            size="md"
+                            name="react-logo"
+                        />
+                        <Avatar
+                            className="next-logo"
+                            src={nextlogo}
+                            size="md"
+                            name="next-logo"
+                        />
+                    </HStack>
+                    <HStack>
+                        <Avatar
+                            src={htmllogo}
+                            size="md"
+                            name="html-logo"
+                        />
+                        <Avatar
+                            src={jslogo}
+                            size="md"
+                            name="js-logo"
+                        />
+                        <Avatar
+                            src={csslogo}
+                            size="md"
+                            name="css-logo"
+                        />
+                        <Avatar
+                            src={styledcomponentlogo}
+                            size="md"
+                            name="styled-component-logo"
+                        />
+                        <Avatar
+                            src={chakrauilogo}
+                            size="md"
+                            name="chakraui-logo"
+                        />
+                    </HStack>
+                </VStack>
             </HStack>
         </VStack>
         <VStack

@@ -13,8 +13,8 @@ span{
   display: none;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .react-logo {
+    animation: react-logo-spin infinite 20s linear;
   }
 }
 
@@ -33,7 +33,7 @@ span{
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes react-logo-spin {
   from {
     transform: rotate(0deg);
   }

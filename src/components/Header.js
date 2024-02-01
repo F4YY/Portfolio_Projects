@@ -80,16 +80,16 @@ const Header = () => {
       <Box
         color="white"
         Width={{base:'fit-content', md:'fit-content', lg:'auto'}}
-        margin="0 20px">
+        margin="0 auto">
         <HStack
-          px={{base:'auto', md:'auto', lg:16}}
+          px={{base:'3', md:'4', lg:'4'}}
           py={4}
           justifyContent="space-between"
           alignItems="center"
         >
           <nav>
            <HStack
-            spacing={{base:3, md:4, lg:8}}
+            spacing={{base:3, md:4, lg:6}}
           >
                 {socials.map(({icon, url}) => (
                 <a
@@ -99,8 +99,8 @@ const Header = () => {
                     rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon
+                      size='lg'
                       icon={icon}
-                      size={{base:'xl', md:'xl', lg:'2xl'}}
                       key={url}
                     />
                 </a>
